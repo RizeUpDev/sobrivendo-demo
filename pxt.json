@@ -1,0 +1,41 @@
+{
+    "name": "sobrivendo demo",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.2.1",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#v0.1.0",
+        "arcade-shader": "github:riknoll/arcade-shader#d2a2572906fdb68ff429f337e30606b069e688ea",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.1.0",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "arcade-improved-sprite-data": "github:riknoll/arcade-improved-sprite-data#2e82c060f5d29b7ae556e11a29aa2f25a26a6115"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.10",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "theme": {
+        "skin": "brown",
+        "background-color": "#fabf61",
+        "button-stroke": "#e08d51",
+        "text-color": "#f5eeb0",
+        "button-fill": "#8a5865",
+        "dpad-fill": "#8a5865"
+    }
+}
